@@ -33,17 +33,6 @@ public class RobotTest {
 
     
    
-//    @Test
-//    public void testinputDelse() {
-//
-//    	outputStream.reset();
-//    	ByteArrayInputStream is = new ByteArrayInputStream("i3\nd7\nq\n".getBytes());
-//        System.setIn(is);
-//
-//        RobotMotion.run();
-//
-//        Assertions.assertEquals("Enter command: Enter command: Invalid command!" +System.lineSeparator()+
-//        		 "Enter command: ", outputStream.toString());  }
     @Test
     public void testinputElseLoops() {
     	
